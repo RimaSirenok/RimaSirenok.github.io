@@ -111,21 +111,7 @@
    "author": "Unknown author",
    "orientation": "horizontal"
  },
- {
-   "path_extension": "chernivtsi/",
-   "File name": "kadubivtsi1.JPG",
-   "@image": "assets/img/chernivtsi/kadubivtsi1.JPG",
-   "bus_stop": "Kadubivtsi village",
-   "author": "Unknown author",
-   "orientation": "horizontal"
- },
- {
-   "path_extension": "chernivtsi/",
-   "File name": "kadubivtsi2.JPG",
-   "@image": "assets/img/chernivtsi/kadubivtsi2.JPG",
-   "bus_stop": "Kadubivtsi village",
-   "author": "Unknown author"
- },
+ 
  {
    "path_extension": "chernivtsi/",
    "File name": "komarivtsi1.JPG",
