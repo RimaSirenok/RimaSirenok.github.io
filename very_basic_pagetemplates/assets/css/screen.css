@@ -4,13 +4,16 @@
 }
 
 body {
-  font-family: Verdana;
+  font-family: Dejavu;
   padding: 2px;
-  font-size: 16px;
+  font-size: 18px;
+  line-height: 1.1;
 }
 
 h1{
-  font-size: 1rem;
+  font-family: NAMU-1930;
+  padding: 2px;
+  font-size: 36px;
 }
 
 img{
