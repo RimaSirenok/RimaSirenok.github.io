@@ -1,16 +1,16 @@
 *{
-  margin: 15;
-  padding: 9;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  font-family: NAMU-1930;
+  font-family: Verdana;
   padding: 2px;
   font-size: 16px;
 }
 
 h1{
-  font-size: 26;
+  font-size: 1rem;
 }
 
 img{
@@ -19,5 +19,5 @@ img{
 
 .katalog-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
