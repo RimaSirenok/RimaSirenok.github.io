@@ -20,7 +20,25 @@ img{
   width: -webkit-fill-available;
 }
 
-.katalog-grid {
+.katalog-layout {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: 3fr 1fr;
+  gap: 20px;
+}
+
+.vertical-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.horizontal-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card img {
+  width: 100%;
+  display: block;
 }
