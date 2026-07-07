@@ -101,7 +101,7 @@ console.log('Horizontal container:', horizontalKatalog);
         <div class="card-content">
 
             <div class="card-title">
-                ${item.Titel}
+                ${item.bus_stop}
             </div>
 
             <div class="card-author ${authorClass}">
