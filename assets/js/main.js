@@ -79,7 +79,7 @@ console.log('Horizontal container:', horizontalKatalog);
         console.log('Rendering item:', i, item);
 
         // Prepare the author text
-        let authorText = item.Author;
+        let authorText = item.author;
 
         // Prepare an additional CSS class for unknown authors
         let authorClass = '';
