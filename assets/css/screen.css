@@ -5,7 +5,7 @@
 
 body {
   font-family: NAMU-1930;
-  padding: 2px;
+  padding: 26px 42px 26px 22px;
   font-size: 12px;
   line-height: 1.1;
 }
@@ -33,20 +33,35 @@ img {
 .katalog-layout {
   display: grid;
   grid-template-columns: 3fr 1fr;
-  gap: 20px;
+  gap: 88px;
+  align-items: start;
 }
 
 .vertical-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  column-gap: 12px;
+  row-gap: 22px;
   align-items: start;
-}             
+  align-content: start;
+}
+
+.vertical-grid .card-image {
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+}
+
+.vertical-grid .card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
 
 .horizontal-column {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 22px;
 }
 
 .card {
@@ -70,4 +85,44 @@ img {
 .card-title,
 .card-author {
   color: white;
+}
+
+/* ---------- ROW 1 ---------- */
+
+.vertical-grid .card:nth-child(15n + 1),
+.vertical-grid .card:nth-child(15n + 2),
+.vertical-grid .card:nth-child(15n + 3) {
+    transform: translateX(0px);
+}
+
+/* ---------- ROW 2 ---------- */
+
+.vertical-grid .card:nth-child(15n + 4),
+.vertical-grid .card:nth-child(15n + 5),
+.vertical-grid .card:nth-child(15n + 6) {
+    transform: translateX(18px);
+}
+
+/* ---------- ROW 3 ---------- */
+
+.vertical-grid .card:nth-child(15n + 7),
+.vertical-grid .card:nth-child(15n + 8),
+.vertical-grid .card:nth-child(15n + 9) {
+    transform: translateX(42px);
+}
+
+/* ---------- ROW 4 ---------- */
+
+.vertical-grid .card:nth-child(15n + 10),
+.vertical-grid .card:nth-child(15n + 11),
+.vertical-grid .card:nth-child(15n + 12) {
+    transform: translateX(10px);
+}
+
+/* ---------- ROW 5 ---------- */
+
+.vertical-grid .card:nth-child(15n + 13),
+.vertical-grid .card:nth-child(15n + 14),
+.vertical-grid .card:nth-child(15n + 15) {
+    transform: translateX(28px);
 }
